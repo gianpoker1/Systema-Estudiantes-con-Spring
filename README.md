@@ -28,9 +28,9 @@ Este proyecto es una aplicación de consola desarrollada en Java utilizando Spri
 ## Instrucciones de Instalación:
 
 ### Clonar el Repositorio:
-git clone https://github.com/gianpoker1/Systema-Estudiantes-con-Spring.git
+`git clone https://github.com/gianpoker1/Systema-Estudiantes-con-Spring.git`
 
-cd Systema-Estudiantes-con-Spring
+`cd Systema-Estudiantes-con-Springp`
 
 ### Configurar la Base de Datos MySQL:
 
