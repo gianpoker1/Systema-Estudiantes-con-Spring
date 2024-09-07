@@ -55,9 +55,8 @@ Ejecuta la aplicación utilizando el siguiente comando:
 mvn spring-boot:run
 
 ## Estructura del Proyecto
-com.systemStudents.students:
-
-StudentsApplication.java: Clase principal que implementa CommandLineRunner para ejecutar el menú de consola.
+- **com.systemStudents.students:**
+***StudentsApplication.java:*** Clase principal que implementa CommandLineRunner para ejecutar el menú de consola.
 com.systemStudents.students.model:
 
 Student.java: Clase de entidad que representa a un estudiante. Utiliza Lombok para simplificar el código.
