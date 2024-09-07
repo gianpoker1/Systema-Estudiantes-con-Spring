@@ -25,12 +25,13 @@ Este proyecto es una aplicación de consola desarrollada en Java utilizando Spri
 4. Sigue las instrucciones en la consola para gestionar los estudiantes.
 
 
-##Instrucciones de Instalación:
+## Instrucciones de Instalación:
 
-###Clonar el Repositorio:git clone https://github.com/gianpoker1/Systema-Estudiantes-con-Spring.git 
+### Clonar el Repositorio:
+git clone https://github.com/gianpoker1/Systema-Estudiantes-con-Spring.git 
 cd Systema-Estudiantes-con-Spring
 
-###Configurar la Base de Datos MySQL:
+### Configurar la Base de Datos MySQL:
 
 Asegúrate de tener MySQL instalado y en funcionamiento.
 
@@ -42,12 +43,12 @@ spring.datasource.username=your_user
 spring.datasource.password=yourpassword
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-###Ejecutar la Aplicación:
+### Ejecutar la Aplicación:
 Asegúrate de tener Maven instalado.
 Ejecuta la aplicación utilizando el siguiente comando:
 mvn spring-boot:run
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 com.systemStudents.students:
 
 StudentsApplication.java: Clase principal que implementa CommandLineRunner para ejecutar el menú de consola.
@@ -62,7 +63,7 @@ com.systemStudents.students.service:
 IStudentService.java: Interfaz que define los métodos del servicio de estudiantes.
 StudentService.java: Implementación de IStudentService que utiliza StudentRepository para interactuar con la base de datos.
 
-##Uso de la Aplicación
+## Uso de la Aplicación
 Una vez que la aplicación esté en funcionamiento, se mostrará un menú en la consola con las siguientes opciones:
 
 1. Listar Estudiantes: Muestra una lista de todos los estudiantes en la base de datos.
@@ -73,7 +74,7 @@ Una vez que la aplicación esté en funcionamiento, se mostrará un menú en la 
 6. Salir: Cierra la aplicación.
 
 
-##Dependencias
+## Dependencias
 El proyecto utiliza las siguientes dependencias principales:
 
 Spring Boot: Framework para desarrollar aplicaciones Java.
