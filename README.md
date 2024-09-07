@@ -51,6 +51,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ### Ejecutar la Aplicación:
 Asegúrate de tener Maven instalado.
 Ejecuta la aplicación utilizando el siguiente comando:
+
 mvn spring-boot:run
 
 ## Estructura del Proyecto
