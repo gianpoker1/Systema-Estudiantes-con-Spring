@@ -79,6 +79,9 @@ Una vez que la aplicación esté en funcionamiento, se mostrará un menú en la 
 El proyecto utiliza las siguientes dependencias principales:
 
 Spring Boot: Framework para desarrollar aplicaciones Java.
+
 Spring Data JPA: Para la interacción con la base de datos.
+
 MySQL: Sistema de gestión de base de datos.
+
 Lombok: Para simplificar el modelo de datos.
